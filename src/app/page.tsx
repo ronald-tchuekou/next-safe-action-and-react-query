@@ -1,4 +1,5 @@
 import { CardContent1 } from '@/components/ui/base/card-content-1'
+import { DialogContent1 } from '@/components/ui/base/dialog-content-1'
 import { Button } from '@/components/ui/button'
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
 		<main className='h-screen w-screen flex flex-col gap-8 items-center justify-center p-10'>
 			<Button>Click me</Button>
 			<CardContent1 />
+			<DialogContent1 />
 		</main>
 	)
 }
